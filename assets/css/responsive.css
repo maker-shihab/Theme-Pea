@@ -1,0 +1,200 @@
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .blog-body {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        -webkit-column-gap: 3rem;
+        -moz-column-gap: 3rem;
+        column-gap: 3rem;
+        row-gap: 3rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 991px) {
+    .team-profile-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        row-gap: 5rem;
+        max-width: 45rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .review-price-itme {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    .muster-testimonial {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .form-area {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .footer-bottom {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .footer-copy p {
+        text-align: center;
+        padding-bottom: 20px;
+        padding-bottom: 2rem;
+    }
+}
+
+@media (min-width: 767px) {
+    .manu-area {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: inherit !important;
+        flex-direction: inherit !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+    .manu-area {
+        display: none;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        position: absolute;
+        top: 99%;
+        left: 0;
+        height: auto;
+        width: 100%;
+        background: #fff;
+        z-index: 99999;
+    }
+
+    .fixed-header .manu-area {
+        background: #222;
+        color: #fff;
+    }
+
+    .menu-bars {
+        display: block;
+    }
+
+    .menu ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .menu ul li a {
+        padding: 1rem 0;
+    }
+
+    .logo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .navigation {
+        padding: 1.5rem 0;
+    }
+
+    .menu-form-area {
+        display: none;
+    }
+
+    .about-area .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        row-gap: 4rem;
+    }
+
+    .advantage-content .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -webkit-column-gap: 2rem;
+        -moz-column-gap: 2rem;
+        column-gap: 2rem;
+    }
+
+    .protfolio-content-body {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .work-hard-content {
+        width: 90%;
+    }
+
+    .blog-body {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        -webkit-column-gap: 3rem;
+        -moz-column-gap: 3rem;
+        column-gap: 3rem;
+        row-gap: 3rem;
+    }
+
+    .form-area {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) {
+    .advantage-item {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .protfolio-content-body {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .form-area {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .banner-contant {
+        padding-top: 15rem;
+    }
+
+    .banner-area {
+        height: calc(100vh - 2rem);
+    }
+}
